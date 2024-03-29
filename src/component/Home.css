@@ -1,0 +1,16 @@
+.carousel-container {
+    height: 40%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    height: 100%;
+    /* Ensure the carousel occupies 100% height of its container */
+}
+
+.carousel-item img {
+    height: 100%;
+    /* Ensure images fill the height of the carousel */
+    object-fit: cover;
+    /* Maintain aspect ratio while covering the entire area */
+}
